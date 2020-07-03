@@ -1,5 +1,4 @@
 
-**Antes de crear el mapa**
 Antes de crear el mapa tenemos que importar el .js del api.
 
     <script src="https://maps.googleapis.com/maps/api/js?key=LLAVE_API_AQUI&callback=funcionMapa"></script>
