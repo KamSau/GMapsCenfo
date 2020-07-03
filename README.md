@@ -16,21 +16,22 @@ El primer paso para crear un mapa con el API de GMaps, es el de crear una instan
    
   - opts: Son la opciones que podemos configurar para el mapa. Entre las
    más utilizadas están: 
-   - [MapTypeId](https://developers.google.com/maps/documentation/javascript/reference/map#MapTypeId)
- - [Zoom](https://developers.google.com/maps/documentation/javascript/reference/map#MapOptions.zoom)    
-  - [Scrollwheel](https://developers.google.com/maps/documentation/javascript/reference/map#MapOptions.scrollwheel)
-  - [Center](https://developers.google.com/maps/documentation/javascript/reference/map#Map.setCenter)
+	   - [MapTypeId](https://developers.google.com/maps/documentation/javascript/reference/map#MapTypeId)
+	 - [Zoom](https://developers.google.com/maps/documentation/javascript/reference/map#MapOptions.zoom)    
+	  - [Scrollwheel](https://developers.google.com/maps/documentation/javascript/reference/map#MapOptions.scrollwheel)
+	  - [Center](https://developers.google.com/maps/documentation/javascript/reference/map#Map.setCenter)
+	  
 
-	    <script>
-	        var mapProp= {
-		        mapTypeId:ROADMAP,
-		        center:new google.maps.LatLng(51.508742,-0.120850),
-		        zoom:5,
-		        scrollwheel: true,
-        };
-        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-        } 
-    </script>
+			  <script>
+			        var mapProp= {
+				        mapTypeId:ROADMAP,
+				        center:new google.maps.LatLng(51.508742,-0.120850),
+				        zoom:5,
+				        scrollwheel: true,
+		        };
+		        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+		        } 
+		    </script>
 
 **Crear Marcador Dentro del Mapa**
 
