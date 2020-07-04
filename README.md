@@ -1,3 +1,4 @@
+“[Video](https://www.youtube.com/watch?v=SwEX3W0hOoY&feature=youtu.be)”
 
 Antes de crear el mapa tenemos que importar el .js del api.
 
@@ -85,6 +86,7 @@ Ej:
     </script>
 
    **Eventos**
+   
    GMaps ofrece eventos o también llamados "triggers/listeners" para realizar ciertos eventos cuando queremos.
 
 Por ejemplo, el evento de cuando se presiona sobre un marcador. Con este evento podemos hacer que el infowindow creado anterior se abra cada vez que el usuario presiona sobre el marcador.
